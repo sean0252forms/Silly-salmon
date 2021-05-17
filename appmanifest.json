@@ -1,7 +1,7 @@
 {
 	"name": "Silly Salmon",
 	"short_name": "Silly Salmon",
-	"description": "Silly salmon version 0.0.0.3 addresses a couple of bugs with the score and coin amounts not showing up",
+	"description": "Silly salmon version 0.0.0.4 adds a way to get out of the shop without hitting the play button",
 	"start_url": "index.html",
 	"display": "fullscreen",
 	"orientation": "any",

@@ -2885,6 +2885,7 @@ const map=new WeakMap;self.IBulletBehaviorInstance=class IBulletBehaviorInstance
 		C3.Plugins.Text.Acts.SetText,
 		C3.Plugins.Audio.Acts.Stop,
 		C3.Plugins.Audio.Acts.Play,
+		C3.Plugins.System.Acts.SetGroupActive,
 		C3.Plugins.System.Cnds.IsGroupActive,
 		C3.Plugins.Touch.Cnds.OnNthTouchStart,
 		C3.Plugins.Sprite.Acts.SetInstanceVar,
@@ -2922,6 +2923,7 @@ const map=new WeakMap;self.IBulletBehaviorInstance=class IBulletBehaviorInstance
 		C3.Plugins.System.Exps.layoutheight,
 		C3.Plugins.Sprite.Cnds.IsOverlapping,
 		C3.Plugins.Keyboard.Cnds.OnKey,
+		C3.Plugins.System.Acts.GoToLayout,
 		C3.Plugins.Sprite.Cnds.OnCollision,
 		C3.Plugins.System.Acts.SubVar,
 		C3.Plugins.Sprite.Cnds.IsBoolInstanceVarSet,
@@ -2930,7 +2932,6 @@ const map=new WeakMap;self.IBulletBehaviorInstance=class IBulletBehaviorInstance
 		C3.Plugins.LocalStorage.Acts.SetItem,
 		C3.Plugins.Touch.Cnds.OnTouchObject,
 		C3.Plugins.Sprite.Cnds.IsVisible,
-		C3.Plugins.System.Acts.GoToLayout,
 		C3.Plugins.LocalStorage.Acts.CheckItemExists,
 		C3.Plugins.Touch.Cnds.OnTapGestureObject,
 		C3.Plugins.LocalStorage.Cnds.OnItemExists,
@@ -3107,6 +3108,7 @@ const map=new WeakMap;self.IBulletBehaviorInstance=class IBulletBehaviorInstance
 		},
 		() => "Start",
 		() => "Game",
+		() => "Keyboard Controls",
 		() => "TouchControls",
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
@@ -3220,7 +3222,6 @@ const map=new WeakMap;self.IBulletBehaviorInstance=class IBulletBehaviorInstance
 			const n1 = p._GetNode(1);
 			return () => (f0() + n1.ExpObject());
 		},
-		() => "Keyboard Controls",
 		() => "Obstacle Collisions",
 		() => "Animation 1",
 		() => "Smashed",
