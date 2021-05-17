@@ -1,7 +1,7 @@
 {
 	"name": "Silly Salmon",
 	"short_name": "Silly Salmon",
-	"description": "Silly salmon version 0.0.0.4 adds a way to get out of the shop without hitting the play button",
+	"description": "Silly salmon version 0.0.0.5 fixed the log collision giving a game over when you had a Salmon smash",
 	"start_url": "index.html",
 	"display": "fullscreen",
 	"orientation": "any",
